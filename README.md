@@ -76,13 +76,6 @@ I want to know why, and I usually don't stop until it does.
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Z0rdic&hide_border=true&bg_color=00000000&color=334155&title_color=0F766E&line=0D9488&point=7C3AED&area=true&area_color=7C3AED" alt="Zordic's contribution graph">
 </picture>
 
-<!-- Trophies: the free public trophy server is currently down.
-     Once you host your own copy on Vercel, uncomment and put its address here:
-<p align="center">
-  <img src="https://YOUR-TROPHY-APP.vercel.app/?username=Z0rdic&theme=onedark&no-frame=true&row=1&column=7" alt="Zordic's GitHub trophies">
-</p>
--->
-
 ## 🐍 Contributions
 
 <p align="center">
