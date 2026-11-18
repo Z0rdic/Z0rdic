@@ -81,8 +81,34 @@ jobs:
 
               return KF.sub(rebuild, svg)
 
+          FADE_OUT_EXTRA_MS = 1500  # added to the end of the loop: a slower fade-out
+
+          def stretch(svg, extra_ms):
+              # Lengthen the loop without changing the speed of anything:
+              # every keyframe keeps its real time, and each animation holds
+              # its final state through the added time at the end.
+              old = int(re.search(r'(\d+)ms', svg).group(1))
+              new = old + extra_ms
+              k = old / new
+
+              def block(m):
+                  frames = re.findall(r'([\d.%,]+)\{([^}]*)\}', m.group(2))
+                  out, last = [], (-1.0, "")
+                  for sel, props in frames:
+                      pcts = [float(p.rstrip('%')) for p in sel.split(',')]
+                      for p in pcts:
+                          if p > last[0]:
+                              last = (p, props)
+                      out.append(",".join(f"{round(p * k, 3):g}%" for p in pcts) + "{" + props + "}")
+                  out.append("100%{" + last[1] + "}")
+                  return f"@keyframes {m.group(1)}{{{''.join(out)}}}"
+
+              svg = re.sub(r'@keyframes ([\w-]+)\{((?:[^{}]*\{[^}]*\})*)\}', block, svg)
+              return svg.replace(f"{old}ms", f"{new}ms")
+
           for path in glob.glob("dist/*.svg"):
               svg = open(path, encoding="utf-8").read()
+              svg = stretch(svg, FADE_OUT_EXTRA_MS)
               svg = fade_on_grid(svg)
               cells = re.findall(r'<rect class="c[^"]*" x="([\d.]+)" y="([\d.]+)"', svg)
               size = re.search(r'\.c\{[^}]*width:\s*([\d.]+)px', svg)
