@@ -65,7 +65,7 @@ I want to know why, and I usually don't stop until it does.
   <br>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-rho-tan-16.vercel.app/api/top-langs/?username=Z0rdic&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=5EEAD4&text_color=C7D2FE">
-    <img width="48%" src="https://github-readme-stats-rho-tan-16.vercel.app/api/top-langs/?username=Z0rdic&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=0F766E&text_color=334155" alt="Zordic's most used languages">
+    <img width="31%" src="https://github-readme-stats-rho-tan-16.vercel.app/api/top-langs/?username=Z0rdic&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=0F766E&text_color=334155" alt="Zordic's most used languages">
   </picture>
 </p>
 
