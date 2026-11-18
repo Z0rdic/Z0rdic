@@ -27,14 +27,24 @@ jobs:
             dist/snake-grid-dark.svg?palette=github-dark&color_snake=#A78BFA
 
       # The generator draws a margin around the grid and starts/ends the snake
-      # one row above it. Crop each SVG to the grid plus its progress bar so the
-      # snake is only ever visible on the squares.
-      - name: Crop to the grid
+      # one row above it. Hide every snake piece while it is off the grid, then
+      # crop each SVG to the grid plus its progress bar, so the snake is only
+      # ever visible on the squares.
+      - name: Keep the snake on the grid
         run: |
           python3 - <<'PY'
           import glob, re
+
+          def hide_off_grid(block):
+              def frame(m):
+                  x, y = float(m.group(1)), float(m.group(2))
+                  return m.group(0)[:-1] + (";opacity:0}" if x < 0 or y < 0 else ";opacity:1}")
+              return re.sub(r'\{transform:translate\((-?[\d.]+)px,(-?[\d.]+)px\)\}', frame, block)
+
           for path in glob.glob("dist/*.svg"):
               svg = open(path, encoding="utf-8").read()
+              svg = re.sub(r'@keyframes s\d+\{(?:[^{}]*\{[^}]*\})*\}',
+                           lambda m: hide_off_grid(m.group(0)), svg)
               cells = re.findall(r'<rect class="c[^"]*" x="([\d.]+)" y="([\d.]+)"', svg)
               size = re.search(r'\.c\{[^}]*width:\s*([\d.]+)px', svg)
               cell = float(size.group(1)) if size else 12.0
