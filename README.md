@@ -53,20 +53,28 @@ I want to know why, and I usually don't stop until it does.
 
 ## 📊 Stats
 
-<p align="center">
-  <img height="170" src="https://github-readme-stats-rho-tan-16.vercel.app/api?username=Z0rdic&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&border_radius=12&bg_color=161B3A&title_color=5EEAD4&icon_color=A78BFA&text_color=C7D2FE&ring_color=A78BFA" alt="Zordic's GitHub stats">
-  <img height="170" src="https://streak-stats.demolab.com?user=Z0rdic&hide_border=true&border_radius=12&background=161B3A&stroke=2A3160&ring=A78BFA&fire=5EEAD4&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=5EEAD4&sideLabels=C7D2FE&dates=A5B4FC" alt="Zordic's contribution streak">
-</p>
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats-rho-tan-16.vercel.app/api/top-langs/?username=Z0rdic&layout=compact&langs_count=8&hide_border=true&border_radius=12&bg_color=161B3A&title_color=5EEAD4&text_color=C7D2FE" alt="Zordic's most used languages">
+<p>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-rho-tan-16.vercel.app/api?username=Z0rdic&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=5EEAD4&icon_color=A78BFA&text_color=C7D2FE&ring_color=A78BFA">
+    <img width="48%" src="https://github-readme-stats-rho-tan-16.vercel.app/api?username=Z0rdic&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=0F766E&icon_color=7C3AED&text_color=334155&ring_color=7C3AED" alt="Zordic's GitHub stats">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Z0rdic&hide_border=true&background=00000000&stroke=3B4170&ring=A78BFA&fire=5EEAD4&currStreakNum=A78BFA&sideNums=7DD3FC&currStreakLabel=A78BFA&sideLabels=7DD3FC&dates=5EEAD4">
+    <img width="51%" src="https://streak-stats.demolab.com?user=Z0rdic&hide_border=true&background=00000000&stroke=CBD5E1&ring=7C3AED&fire=0F766E&currStreakNum=7C3AED&sideNums=0369A1&currStreakLabel=7C3AED&sideLabels=0369A1&dates=0F766E" alt="Zordic's contribution streak">
+  </picture>
+  <br>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-rho-tan-16.vercel.app/api/top-langs/?username=Z0rdic&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=5EEAD4&text_color=C7D2FE">
+    <img width="48%" src="https://github-readme-stats-rho-tan-16.vercel.app/api/top-langs/?username=Z0rdic&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=0F766E&text_color=334155" alt="Zordic's most used languages">
+  </picture>
 </p>
 
 ## 📈 Contribution graph
 
-<p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Z0rdic&hide_border=true&radius=12&bg_color=161B3A&color=C7D2FE&title_color=5EEAD4&line=5EEAD4&point=A78BFA&area=true&area_color=A78BFA" alt="Zordic's contribution graph">
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Z0rdic&hide_border=true&bg_color=00000000&color=C7D2FE&title_color=5EEAD4&line=5EEAD4&point=A78BFA&area=true&area_color=A78BFA">
+  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Z0rdic&hide_border=true&bg_color=00000000&color=334155&title_color=0F766E&line=0D9488&point=7C3AED&area=true&area_color=7C3AED" alt="Zordic's contribution graph">
+</picture>
 
 <!-- Trophies: the free public trophy server is currently down.
      Once you host your own copy on Vercel, uncomment and put its address here:
@@ -79,9 +87,8 @@ I want to know why, and I usually don't stop until it does.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Z0rdic/Z0rdic/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Z0rdic/Z0rdic/output/github-snake.svg">
-    <img src="https://raw.githubusercontent.com/Z0rdic/Z0rdic/output/github-snake-dark.svg" alt="A snake eating Zordic's contribution graph">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Z0rdic/Z0rdic/output/snake-grid-dark.svg">
+    <img width="100%" src="https://raw.githubusercontent.com/Z0rdic/Z0rdic/output/snake-grid.svg" alt="A snake eating Zordic's contribution graph">
   </picture>
 </p>
 
