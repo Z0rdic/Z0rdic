@@ -2,10 +2,6 @@
   <img src="assets/banner-typewriter.svg" width="100%" alt="Hi there, I'm Zordic. Developer: C++, Python, Flutter. There are more problems than solutions. Someone has to figure them out. Behind the text: a developer at a night-time desk under the words One More Problem to Solve.">
 </p>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=3200&pause=1000&color=6366F1&center=true&vCenter=true&width=720&lines=I+build+things+in+C%2B%2B+and+Python.;Curious+by+default.+Stubborn+by+design.;Currently+teaching+subtitles+to+listen." alt="I build things in C++ and Python. Curious by default. Stubborn by design.">
-</p>
-
 ## 🙋 About me
 
 I'm a developer who likes problems that fight back. If something doesn't work the way it should,
@@ -26,7 +22,7 @@ I want to know why, and I usually don't stop until it does.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/resonaut/SubSync-Echo"><img src="assets/subsync-echo.png" width="48" align="left" alt="SubSync Echo icon"></a>
+      <a href="https://github.com/resonaut/SubSync-Echo"><img src="assets/subsync-echo-icon.png" width="48" align="left" alt="SubSync Echo icon"></a>
       <b><a href="https://github.com/resonaut/SubSync-Echo">SubSync Echo</a></b><br>
       <sub>C++ · Python · Whisper</sub>
       <br clear="left"><br>
