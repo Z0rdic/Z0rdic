@@ -54,7 +54,7 @@ I want to know why, and I usually don't stop until it does.
 ## 📊 GitHub activity
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Z0rdic&show_icons=true&hide_border=true&border_radius=12&bg_color=161B3A&title_color=5EEAD4&icon_color=A78BFA&text_color=C7D2FE" alt="Zordic's GitHub stats">
+  <img height="165" src="https://github-readme-stats-rho-tan-16.vercel.app/api?username=Z0rdic&show_icons=true&include_all_commits=true&hide_border=true&border_radius=12&bg_color=161B3A&title_color=5EEAD4&icon_color=A78BFA&text_color=C7D2FE" alt="Zordic's GitHub stats">
   <img height="165" src="https://streak-stats.demolab.com?user=Z0rdic&hide_border=true&border_radius=12&background=161B3A&stroke=2A3160&ring=A78BFA&fire=5EEAD4&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=5EEAD4&sideLabels=C7D2FE&dates=A5B4FC" alt="Zordic's contribution streak">
 </p>
 
