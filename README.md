@@ -51,18 +51,39 @@ I want to know why, and I usually don't stop until it does.
 
 <img src="https://skillicons.dev/icons?i=cmake,git,github,githubactions,vscode,windows,linux" alt="CMake, Git, GitHub, GitHub Actions, VS Code, Windows, Linux">
 
-## 📊 GitHub activity
+## 📊 Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats-rho-tan-16.vercel.app/api?username=Z0rdic&show_icons=true&include_all_commits=true&hide_border=true&border_radius=12&bg_color=161B3A&title_color=5EEAD4&icon_color=A78BFA&text_color=C7D2FE" alt="Zordic's GitHub stats">
-  <img height="165" src="https://streak-stats.demolab.com?user=Z0rdic&hide_border=true&border_radius=12&background=161B3A&stroke=2A3160&ring=A78BFA&fire=5EEAD4&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=5EEAD4&sideLabels=C7D2FE&dates=A5B4FC" alt="Zordic's contribution streak">
+  <img height="170" src="https://github-readme-stats-rho-tan-16.vercel.app/api?username=Z0rdic&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&border_radius=12&bg_color=161B3A&title_color=5EEAD4&icon_color=A78BFA&text_color=C7D2FE&ring_color=A78BFA" alt="Zordic's GitHub stats">
+  <img height="170" src="https://streak-stats.demolab.com?user=Z0rdic&hide_border=true&border_radius=12&background=161B3A&stroke=2A3160&ring=A78BFA&fire=5EEAD4&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=5EEAD4&sideLabels=C7D2FE&dates=A5B4FC" alt="Zordic's contribution streak">
 </p>
 
-<!-- Contribution graph: uncomment once you have a few months of activity
+<p align="center">
+  <img height="170" src="https://github-readme-stats-rho-tan-16.vercel.app/api/top-langs/?username=Z0rdic&layout=compact&langs_count=8&hide_border=true&border_radius=12&bg_color=161B3A&title_color=5EEAD4&text_color=C7D2FE" alt="Zordic's most used languages">
+</p>
+
+## 📈 Contribution graph
+
 <p align="center">
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Z0rdic&hide_border=true&radius=12&bg_color=161B3A&color=C7D2FE&title_color=5EEAD4&line=5EEAD4&point=A78BFA&area=true&area_color=A78BFA" alt="Zordic's contribution graph">
 </p>
+
+<!-- Trophies: the free public trophy server is currently down.
+     Once you host your own copy on Vercel, uncomment and put its address here:
+<p align="center">
+  <img src="https://YOUR-TROPHY-APP.vercel.app/?username=Z0rdic&theme=onedark&no-frame=true&row=1&column=7" alt="Zordic's GitHub trophies">
+</p>
 -->
+
+## 🐍 Contributions
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Z0rdic/Z0rdic/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Z0rdic/Z0rdic/output/github-snake.svg">
+    <img src="https://raw.githubusercontent.com/Z0rdic/Z0rdic/output/github-snake-dark.svg" alt="A snake eating Zordic's contribution graph">
+  </picture>
+</p>
 
 ## 🤝 Connect
 
@@ -76,6 +97,5 @@ I want to know why, and I usually don't stop until it does.
 ---
 
 <p align="center">
-  <sub>Pixels matter. <b>Sound matters more.</b> 🔊</sub><br>
-  <img src="https://komarev.com/ghpvc/?username=Z0rdic&label=Profile%20views&color=6366F1&style=flat" alt="Profile views">
+  <sub>Pixels matter. <b>Sound matters more.</b> 🔊</sub>
 </p>
