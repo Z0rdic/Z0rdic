@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner-loop.svg" width="100%" alt="Hi there, I'm Zordic. Developer: C++, Python, Flutter. There are more problems than solutions. Someone has to figure them out. Behind the text: a developer at a night-time desk under the words One More Problem to Solve.">
+  <img src="assets/banner-loop-v2.svg" width="100%" alt="Hi there, I'm Zordic. Developer: C++, Python, Flutter. There are more problems than solutions. Someone has to figure them out. Behind the text: a developer at a night-time desk under the words One More Problem to Solve.">
 </p>
 
 ## 🙋 About me
