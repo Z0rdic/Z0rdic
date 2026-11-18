@@ -36,10 +36,27 @@ jobs:
           import glob, re
 
           def hide_off_grid(block):
-              def frame(m):
-                  x, y = float(m.group(1)), float(m.group(2))
-                  return m.group(0)[:-1] + (";opacity:0}" if x < 0 or y < 0 else ";opacity:1}")
-              return re.sub(r'\{transform:translate\((-?[\d.]+)px,(-?[\d.]+)px\)\}', frame, block)
+              # Each snake piece is visible only while it sits on the grid.
+              # Opacity switches instantly: off as soon as it starts leaving,
+              # on only once it has fully arrived on a square.
+              name = re.match(r'@keyframes (s\d+)\{', block).group(1)
+              frames = re.findall(r'([\d.%,]+)\{transform:translate\((-?[\d.]+)px,(-?[\d.]+)px\)\}', block)
+              points = sorted((float(p.rstrip('%')), float(x) < 0 or float(y) < 0)
+                              for pcts, x, y in frames for p in pcts.split(','))
+              if not any(hidden for _, hidden in points):
+                  return block
+              stops = {}
+              for i, (pct, hidden) in enumerate(points):
+                  stops[pct] = 0 if hidden else 1
+                  nxt = points[i + 1] if i + 1 < len(points) else None
+                  if nxt and hidden and not nxt[1]:      # entering: stay hidden until arrival
+                      stops[round(nxt[0] - 0.01, 3)] = 0
+                  if nxt and not hidden and nxt[1]:      # leaving: hide right away
+                      stops[round(pct + 0.01, 3)] = 0
+              stops.setdefault(100.0, stops[min(stops)])
+              body = block[len(f'@keyframes {name}{{'):-1]
+              body += "".join(f"{p:g}%{{opacity:{o}}}" for p, o in sorted(stops.items()))
+              return f"@keyframes {name}{{{body}}}"
 
           for path in glob.glob("dist/*.svg"):
               svg = open(path, encoding="utf-8").read()
