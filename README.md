@@ -55,17 +55,17 @@ I want to know why, and I usually don't stop until it does.
 
 <p>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-rho-tan-16.vercel.app/api?username=Z0rdic&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=5EEAD4&icon_color=A78BFA&text_color=C7D2FE&ring_color=A78BFA">
-    <img width="48%" src="https://github-readme-stats-rho-tan-16.vercel.app/api?username=Z0rdic&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=0F766E&icon_color=7C3AED&text_color=334155&ring_color=7C3AED" alt="Zordic's GitHub stats">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-rho-tan-16.vercel.app/api?username=Z0rdic&cache_seconds=3600&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=5EEAD4&icon_color=A78BFA&text_color=C7D2FE&ring_color=A78BFA">
+    <img width="48%" src="https://github-readme-stats-rho-tan-16.vercel.app/api?username=Z0rdic&cache_seconds=3600&show_icons=true&include_all_commits=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=0F766E&icon_color=7C3AED&text_color=334155&ring_color=7C3AED" alt="Zordic's GitHub stats">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Z0rdic&hide_border=true&background=00000000&stroke=3B4170&ring=A78BFA&fire=5EEAD4&currStreakNum=A78BFA&sideNums=7DD3FC&currStreakLabel=A78BFA&sideLabels=7DD3FC&dates=5EEAD4">
-    <img width="51%" src="https://streak-stats.demolab.com?user=Z0rdic&hide_border=true&background=00000000&stroke=CBD5E1&ring=7C3AED&fire=0F766E&currStreakNum=7C3AED&sideNums=0369A1&currStreakLabel=7C3AED&sideLabels=0369A1&dates=0F766E" alt="Zordic's contribution streak">
+    <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=Z0rdic&v=2&hide_border=true&background=00000000&stroke=3B4170&ring=A78BFA&fire=5EEAD4&currStreakNum=A78BFA&sideNums=7DD3FC&currStreakLabel=A78BFA&sideLabels=7DD3FC&dates=5EEAD4">
+    <img width="51%" src="https://streak-stats.demolab.com?user=Z0rdic&v=2&hide_border=true&background=00000000&stroke=CBD5E1&ring=7C3AED&fire=0F766E&currStreakNum=7C3AED&sideNums=0369A1&currStreakLabel=7C3AED&sideLabels=0369A1&dates=0F766E" alt="Zordic's contribution streak">
   </picture>
   <br>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-rho-tan-16.vercel.app/api/top-langs/?username=Z0rdic&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=5EEAD4&text_color=C7D2FE">
-    <img width="31%" src="https://github-readme-stats-rho-tan-16.vercel.app/api/top-langs/?username=Z0rdic&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=0F766E&text_color=334155" alt="Zordic's most used languages">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-rho-tan-16.vercel.app/api/top-langs/?username=Z0rdic&cache_seconds=3600&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=5EEAD4&text_color=C7D2FE">
+    <img width="31%" src="https://github-readme-stats-rho-tan-16.vercel.app/api/top-langs/?username=Z0rdic&cache_seconds=3600&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=0F766E&text_color=334155" alt="Zordic's most used languages">
   </picture>
 </p>
 
