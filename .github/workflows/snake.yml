@@ -68,20 +68,32 @@ jobs:
                             and all(on_grid(x2, y2) for p2, x2, y2 in pts if start <= p2 <= p))
                         for pts in paths.values())
 
+              # Fade out while the snake is still moving, so it is fully gone
+              # by the time it reaches the end of its path.
+              loop_ms = int(re.search(r'(\d+)ms', svg).group(1))
+              fade_from = max(start, end - FADE_OUT_MS / loop_ms * 100)
+
+              def alpha(p):
+                  return 1 if p <= fade_from else max(0.0, (end - p) / (end - fade_from))
+
               def rebuild(m):
                   name, pts = m.group(1), paths[m.group(1)]
                   sx, sy = pos(pts, start)
+                  fx, fy = pos(pts, fade_from)
                   ex, ey = pos(pts, end)
                   frames = [(0, sx, sy, 0), (start, sx, sy, 1)]
-                  frames += [(p, x, y, 1) for p, x, y in pts if start < p < end]
-                  frames += [(end, ex, ey, 1), (100, ex, ey, 0)]
+                  frames += [(p, x, y, 1) for p, x, y in pts if start < p < fade_from]
+                  frames += [(fade_from, fx, fy, 1)]
+                  frames += [(p, x, y, round(alpha(p), 3)) for p, x, y in pts if fade_from < p < end]
+                  frames += [(end, ex, ey, 0), (100, ex, ey, 0)]
                   body = "".join(f"{p:g}%{{transform:translate({x:g}px,{y:g}px);opacity:{o}}}"
                                  for p, x, y, o in frames)
                   return f"@keyframes {name}{{{body}}}"
 
               return KF.sub(rebuild, svg)
 
-          FADE_OUT_EXTRA_MS = 1500  # added to the end of the loop: a slower fade-out
+          FADE_OUT_MS = 2000        # the snake fades out over its last 2 s of movement
+          FADE_OUT_EXTRA_MS = 300   # short empty beat after it's gone, before the next loop
 
           def stretch(svg, extra_ms):
               # Lengthen the loop without changing the speed of anything:
