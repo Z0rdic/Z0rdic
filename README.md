@@ -22,7 +22,7 @@ I want to know why, and I usually don't stop until it does.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <a href="https://github.com/resonaut/SubSync-Echo"><img src="assets/subsync-echo-icon.png" width="48" align="left" alt="SubSync Echo icon"></a>
+      <a href="https://github.com/resonaut/SubSync-Echo"><img src="https://raw.githubusercontent.com/resonaut/SubSync-Echo/master/resources/subsync.svg" width="48" align="left" alt="SubSync Echo icon"></a>
       <b><a href="https://github.com/resonaut/SubSync-Echo">SubSync Echo</a></b><br>
       <sub>C++ · Python · Whisper</sub>
       <br clear="left"><br>
