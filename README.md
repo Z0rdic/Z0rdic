@@ -45,11 +45,11 @@ I want to know why, and I usually don't stop until it does.
 
 **Mobile**
 
-<img src="https://skillicons.dev/icons?i=dart,flutter" alt="Dart, Flutter">
+<img src="https://skillicons.dev/icons?i=dart,flutter,androidstudio" alt="Dart, Flutter, Android Studio">
 
 **Tools & platforms**
 
-<img src="https://skillicons.dev/icons?i=cmake,git,github,githubactions,vscode,windows,linux" alt="CMake, Git, GitHub, GitHub Actions, VS Code, Windows, Linux">
+<img src="https://skillicons.dev/icons?i=cmake,git,github,vscode,windows,linux" alt="CMake, Git, GitHub, VS Code, Windows, Linux">
 
 ## 📊 Stats
 
