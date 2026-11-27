@@ -72,8 +72,8 @@ I want to know why, and I usually don't stop until it does.
 ## 📈 Contribution graph
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=Z0rdic&hide_border=true&bg_color=00000000&color=C7D2FE&title_color=5EEAD4&line=5EEAD4&point=A78BFA&area=true&area_color=A78BFA">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Z0rdic&hide_border=true&bg_color=00000000&color=334155&title_color=0F766E&line=0D9488&point=7C3AED&area=true&area_color=7C3AED" alt="Zordic's contribution graph">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph-alpha-tawny.vercel.app/graph?username=Z0rdic&hide_border=true&bg_color=00000000&color=C7D2FE&title_color=5EEAD4&line=5EEAD4&point=A78BFA&area=true&area_color=A78BFA">
+  <img width="100%" src="https://github-readme-activity-graph-alpha-tawny.vercel.app/graph?username=Z0rdic&hide_border=true&bg_color=00000000&color=334155&title_color=0F766E&line=0D9488&point=7C3AED&area=true&area_color=7C3AED" alt="Zordic's contribution graph">
 </picture>
 
 ## 🐍 Contributions
